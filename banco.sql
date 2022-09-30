@@ -24,5 +24,5 @@ create table salas (
 
 -- inserindo alguns registros na tabela salas
 insert into salas (numero, descricao, capacidade, predio) 
-values (511, 'Laboratório', 12, 1), (301, 'Sala de aula', 12, 2)
+values (511, 'Laboratório', 12, 1), (301, 'Sala de aula', 12, 1)
 returning codigo, numero, descricao, capacidade, predio;

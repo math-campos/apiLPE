@@ -1,5 +1,4 @@
 const {pool} = require('../config');
-const {request, response} = require('express');
 
 const getPredios = (request, response) => {
     pool.query('SELECT * FROM predios order by codigo',
